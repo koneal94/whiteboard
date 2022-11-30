@@ -1,0 +1,154 @@
+{{#if preview}}
+  <p><strong>This year’s Short Story Contest will begin on {{start_date}},</strong> 
+  but students are encouraged to start planning and drafting their stories as soon as possible! 
+  Read on to learn about this year’s topics and other important information.</p>
+{{/if}} 
+
+{{#if active}}
+  <p><strong>The 2022 Short Story Contest is now open!</strong> The deadline to submit a story is <strong>{{end_date}}</strong> at 11:59:59 PM local time. 
+  Read on to learn more about the contest and submit a story.</p>
+{{else}}
+  <p><strong>This year's Short Story Contest is now closed. Thank you to all who participated!</p>
+  <p>Winners are featured in the 
+    <a href= "https://aopsacademy.org/school/studentauthors">Student Author Page</a> on the Academy website!</strong></p>
+{{/if}}
+
+{{#if display}}
+  <p><strong>This year's Short Story Contest will begin in the Spring! We'll release additional information, including dates, topics, and prizes, in January!</strong></p>
+  <p>The Short Story Contest is open to all students enrolled in math or language arts classes at any AoPS Academy campus.</p>
+  <p>Students who compete in the competition have a chance to win up to $100 and have their story published on the 
+    <a href= "https://aopsacademy.org/school/studentauthors">Student Author Page</a> for the world to read!</p>
+{{/if}}
+
+{{#if preview}}
+<h3>Topics</h3>
+  <p>Your story must address the topic of your division, but be creative! There are many ways to approach each topic. Here are the topics:</p>
+  <p>
+   <ul>
+     <li><strong>Lower Division (Grades 5 and below):</strong> Write a story where a good piece of advice saves the day.</li>
+     <li><strong>Upper Division (Grades 6 and above):</strong> Write a story about an unexpected friendship.</li>
+  </ul>
+  </p>
+
+<h3>Dates and Guidelines</h3>
+  <p>
+    {{#if active}}
+    <strong>The contest will end {{end_date}} and winners will be announced in late April.</strong>
+   {{else}}
+   <strong>The contest will be open {{start_date}} &ndash; {{end_date}}.</strong> Students will be able to submit their stories on this page once the contest is open.
+   {{/if}}
+  </p>
+  
+  <p><strong>Students must be currently enrolled in a math or language arts class to be eligible for the contest.</strong> 
+    To be considered for the contest, your story must:</p>
+  <p>
+   <ul>
+     <li>address your division's topic</li>
+      <li>be 1500 words or less</li>
+      <li>be age-appropriate for your grade level*</li>
+  </ul>
+  </p>
+  <p>
+   <em>* Please keep in mind that this contest is open to students from elementary to high school. 
+     While no story will be disqualified on the basis of content, winning stories dealing with topics not suitable for younger readers 
+     may not be shared with the wider AoPS Academy community. </em>
+  </p>
+
+<h3>Prizes</h3>
+  <p>
+   Winners in each division (lower-grade and upper-grade) will be awarded Amazon gift cards in the amounts shown below: 
+  </p>
+  <ul>
+    <li>Grand Prize (1st Place): $100</li>
+   <li>2nd Place: $75</li>
+   <li>3rd Place: $50</li>
+   <li>4th - 6th Places: $25</li>
+   <li>7th - 10th Places: $10</li>
+  </ul>
+  <p>Prizes will be awarded after the conclusion of the contest.</p> 
+  <p><strong>Grand-prize winners will participate in a mentor meeting with their campus Language Arts Director. 
+   During this meeting, the campus director will offer feedback on the story. 
+    If the grand-prize winners implement the feedback, their story, headshot, and bio will be featured on the 
+    <a href= "https://aopsacademy.org/school/studentauthors">Student Author Page</a> on the Academy website.</strong></p>
+
+<h3>Grading Criteria</h3>
+  <details style>
+    <summary style="outline:none;cursor:pointer"><b><u>Here is a list of helpful questions to ask yourself as you work on your story!</u>▼</b></summary>
+      <p><b>General:</b></p>
+        <ul>
+         <li>How well does my story address the prompt?</li>
+         <li>Does my story display creativity?</li>
+         <li>Does my story have an effective title?</li>
+        </ul>
+      <p><b>Story Elements:</b></p>
+        <ul>
+          <li>Does my story have a clear plot with a beginning, middle, and end?</li>
+          <li>Are the characters interesting and well-developed?</li>
+          <li>Do I use descriptive details to establish the setting?</li>
+          <li>Do I use an effective mix of dialogue and narration?</li>
+      </ul>
+      <p><b>Mechanics/Grammar:</b></p>
+        <ul>
+          <li>Do I display a command of mechanics and grammar?</li>
+          <li>Have I corrected any grammar, spelling, or punctuation errors?</li>
+          <li>Is this a polished piece of writing?</li>
+        </ul>
+      <p>Still need help? The best way to learn about writing is by reading! Crack open your favorite book and look at how the author creates their story.</p>
+  </details>
+    
+<h3>Have questions?</h3> 
+  <details style>
+    <summary style="outline:none;cursor:pointer"><b><u>Check out the Contest FAQs!</u>▼</b></summary>
+         <ul> 
+           <li><b>I’m not sure if my submitted story was received. How can I check that?</b></li>
+            <ul>
+              <li>If you scroll to the top of this page and see a green text box that says "Success!", 
+                then your story has been received! Even if you’ve submitted your story and you see this text box, 
+                you are still able to edit your story at any time until the contest closes on March 20th. 
+                If you decide you want to make changes, you can make edits in the submission window below and click “Submit Story” to save your changes.</li>
+            </ul>
+           <li><b>Can I upload a pdf instead of using the submission form?</b></li> 
+            <ul>
+              <li>No, contest submissions must be written or pasted into the submission window below.</li>
+            </ul>
+           <li><b>The submission portal is now closed, can I still submit a story via email?</b></li>
+            <ul>
+             <li>No, contest submissions must be submitted on this page before March 20th.</li>
+           </ul>
+          <li><b>How will winners be announced? I submitted a story and never heard back from anyone.</b></li>
+           <ul>
+             <li>Due to the high volume of submissions, grading will take several weeks to complete. 
+                The winners will be announced in a campus-wide email blast when grading is complete!</li>
+           </ul>
+           <li><b>Who judges the stories?</b></li>
+           <ul>
+             <li>Short Story Contest submissions are graded by a panel of judges from the Language Arts teaching team!</li>
+           </ul>
+           <li><b>Can I get feedback on my story? What was my score? Why did I not place?</b></li>
+           <ul>
+             <li>Unfortunately, due to the high volume of submissions, we are not able to give individual feedback to all students.</li>
+           </ul>
+          </ul> 
+  </details>
+{{/if}}
+
+{{#if preview}}
+  <h1>Submit a Story</h1>
+  {{#if active}}
+    {{#if student}}
+    <p class="short-story-instructions">
+      Follow the instructions below to submit a story.
+    </p>
+    {{else}}
+    <p class="short-story-instructions">
+      <b>Students must be logged in with their own accounts to submit their stories. 
+    If your student would like to view the submission form and submit a story, 
+    please log out of your parent account and have your student log in with their own account.</b>
+    </p>
+    {{/if}}
+  {{else}}
+  <p><strong>Check back here once the contest is open to submit a story! </strong></p>
+  <p>Once the contest is open, students will be able to submit their stories on this page. 
+  Note that students must be logged in with their own accounts (not their parents' accounts) to submit a story.</p>
+  {{/if}}
+{{/if}}
