@@ -6,14 +6,14 @@
   Read on to learn about this year’s topics and other important information.</p>
 {{/if}} 
 
-{{#if active}}
+{{#if preview AND active}} <!--Kevin has no idea how to code this-->
   <p><strong>The 2022 Short Story Contest is now open!</strong> The deadline to submit a story is <strong>{{end_date}}</strong> at 11:59:59 PM local time. 
   Read on to learn more about the contest and submit a story.</p>
 {{/if}}
 
 {{#if inactive}}
   <p><strong>This year's Short Story Contest is now closed. Thank you to all who participated!</p>
-  <p>Winners are featured in the 
+  <p>Winners will be featured in the 
     <a href= "https://aopsacademy.org/school/studentauthors">Student Author Page</a> on the Academy website!</strong></p>
 {{/if}}
 
