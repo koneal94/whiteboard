@@ -1,3 +1,5 @@
+<!--INTRO LINES: Every #if has a separate intro text-->
+
 {{#if preview}}
   <p><strong>This year’s Short Story Contest will begin on {{start_date}},</strong> 
   but students are encouraged to start planning and drafting their stories as soon as possible! 
@@ -7,7 +9,9 @@
 {{#if active}}
   <p><strong>The 2022 Short Story Contest is now open!</strong> The deadline to submit a story is <strong>{{end_date}}</strong> at 11:59:59 PM local time. 
   Read on to learn more about the contest and submit a story.</p>
-{{else}}
+{{/if}}
+
+{{#if inactive}}
   <p><strong>This year's Short Story Contest is now closed. Thank you to all who participated!</p>
   <p>Winners are featured in the 
     <a href= "https://aopsacademy.org/school/studentauthors">Student Author Page</a> on the Academy website!</strong></p>
@@ -19,6 +23,9 @@
   <p>Students who compete in the competition have a chance to win up to $100 and have their story published on the 
     <a href= "https://aopsacademy.org/school/studentauthors">Student Author Page</a> for the world to read!</p>
 {{/if}}
+
+
+<!--MEAT OF THE PAGE: Only displays the bulk of the page during preview, with certain aspects differing when the contest is active.-->
 
 {{#if preview}}
 <h3>Topics</h3>
@@ -131,6 +138,9 @@
           </ul> 
   </details>
 {{/if}}
+
+
+<!--SUBMISSIONS: Submissions are only allowed when the contest is active but a blurb is displayed if the contest is not active but still within preview.-->
 
 {{#if preview}}
   <h1>Submit a Story</h1>
